@@ -1,0 +1,5 @@
+cls
+producto
+ugineo
+guineo
+guineo

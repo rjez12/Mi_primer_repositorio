@@ -1,0 +1,20 @@
+import os
+
+# Crear parte1.txt si no existe
+if not os.path.exists("parte1.txt"):
+    with open("parte1.txt", "w", encoding="utf-8") as archivo:
+        archivo.write("Contenido de parte 1.\n")
+
+# Crear parte2.txt si no existe
+if not os.path.exists("parte2.txt"):
+    with open("parte2.txt", "w", encoding="utf-8") as archivo:
+        archivo.write("Contenido de parte 2.\n")
+
+# Ahora concatenar ambos archivos
+with open("completo.txt", "w", encoding="utf-8") as archivo_salida:
+    with open("parte1.txt", "r", encoding="utf-8") as archivo1:
+        archivo_salida.write(archivo1.read())
+    with open("parte2.txt", "r", encoding="utf-8") as archivo2:
+        archivo_salida.write(archivo2.read())
+
+print("Archivos concatenados exitosamente en 'completo.txt'.")

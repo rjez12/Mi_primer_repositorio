@@ -1,0 +1,6 @@
+jesser 
+jimmy
+aguacate
+palta
+ejercicio3
+& C:/Users/anton/AppData/Local/Programs/Python/Python313/python.exe c:/Users/anton/OneDrive/Desktop/Repositorios/Semana-13/ejercicio3.py

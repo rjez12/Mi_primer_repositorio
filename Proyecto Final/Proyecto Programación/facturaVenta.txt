@@ -1,0 +1,6 @@
+--- FACTURA DE VENTA ---
+Producto: Gasolina
+Cantidad vendida: 3
+Precio unitario: C$50.00
+Total a pagar: C$150.00
+------------------------
